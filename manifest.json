@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Lenguaje Inclusivo Checker",
+  "version": "1.0",
+  "description": "Resalta lenguaje sesgado en páginas educativas y sugiere alternativas inclusivas.",
+  "permissions": ["scripting", "activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dictionary.json"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  }
+}

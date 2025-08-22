@@ -1,0 +1,20 @@
+// Diccionario de palabras para reemplazar por inclusivas
+const dictionary = {
+  "los médicos": "el personal médico",
+  "los ingenieros": "las personas ingenieras",
+  "los alumnos": "el estudiantado",
+  "los profesores": "el cuerpo docente"
+};
+
+// Diccionario de frases sexistas con sugerencias inclusivas
+const sexistPhrases = {
+  "las niñas no son buenas en matemáticas": "todas las personas pueden desarrollar habilidades matemáticas",
+  "las mujeres no entienden de tecnología": "las mujeres y los hombres pueden destacar en tecnología",
+  "los hombres son mejores para la ciencia": "la ciencia es para todas las personas",
+  "las chicas no deberían estudiar ingeniería": "la ingeniería es una carrera para cualquier persona interesada",
+  "la programación es cosa de hombres": "la programación es para todas las personas",
+  "las mujeres no sirven para las matemáticas": "las mujeres también pueden sobresalir en matemáticas",
+  "las carreras de ciencia no son para mujeres": "las carreras de ciencia son para cualquier persona apasionada"
+};
+
+export { dictionary, sexistPhrases };
